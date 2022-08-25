@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+   }
+   
+   html{
+       width: 100vw;
+       height: 100vh;
+   }
+   
+   /* CSS which you need for blurred box */
+   body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-color:#eaf1ff;
+    /*background-image: linear-gradient(45deg, #0e7fe1 0%, #fff 100%); */
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+     font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+   }
+   .blurred-box{
+     position: relative;
+     width: 250px;
+     height: 400px;
+     top: calc(50% - 220px);
+     left: calc(50% - 125px);
+     background: inherit;
+     border-radius: 2px;
+     overflow: hidden;
+     background-color: #fff;
+   }
+   .blurred-box:after{
+    content: '';
+    width: 300px;
+    height: 410px;
+    background: inherit; 
+    position: absolute;
+    left: -25px;
+    /*left position  */
+    right: 0;
+    top: -10px;  
+    /*top position  */
+    bottom: 0;
+    /*box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+    filter: blur(10px); */
+   }
+   
+   /* Form which you dont need */
+   .user-login-box{
+     position: relative;
+     margin-top: 20px;
+     text-align: center;
+     z-index: 1;
+   }
+   .user-login-box > *{
+     display: inline-block;
+     width: 200px;
+   }
+   
+   .user-icon{
+     width: 140px;
+     height: 100px;
+     position: relative;
+     border-radius: 0;
+     background-size:contain;
+     background:url(IFM_Logo.png);
+     margin-bottom:8%;
+    
+   }
+  
+   .user-name{
+     margin-top: 15px;
+     margin-bottom: 15px;
+     color: #1C3e58;
+   }
+   
+   input.user-password{
+     width: 120px;
+     height: 18px;
+     border-radius: 2px;
+     padding: 5px 15px;
+     border-width: .5px;
+     border-color:silver;
+     margin:5px;
+   }
+   input[type="submit"]{
+     height:30px;
+     transition:2s;
+     background-color:#1C3e58;
+     color:#fff;
+     font-weight: 500;
+     font-size:15px;
+     border:none;
+   }
+   input[type="submit"]:hover{
+    background-color: #04abee;
+   }
+   p{
+    font-size:10px;
+    color:#04abee;
+   }
+   a{
+    text-decoration:none;
+    color:#1C3e58;
+   }

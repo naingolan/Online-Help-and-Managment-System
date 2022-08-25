@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+@import url(https://fonts.googleapis.com/css?family=Orbitron:700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500);
+html,body{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: #d7e5ff;
+    font-family:Roboto;
+    min-width: 100vh; 
+    height: 100%;
+}
+.header{
+    position:fixed;
+    background:#fff;
+    height:15%;
+    padding-left:33%;
+    padding-right:0;
+    margin:0 ;
+    border:0;
+    box-sizing: border-box;
+    z-index: 1;
+    left:17%;
+    width:100%;
+    top:0;
+}
+.header>div>img{
+ height:90px;
+ width:90px;
+ margin: 0 30px 0 0;
+
+}
+
+nav{
+    width:17%;
+    height:100%;
+    background-color:#0F52BA;
+    color:fff;
+    margin:0;
+    border:0;
+    position:fixed;
+    top:0;
+    padding:0;
+    box-sizing: border-box;
+    padding-top:.5%;
+}
+nav>h2{
+    color:#fff;
+    font-family:Roboto;
+    font-size:18px;
+    margin-left:3px;
+    font-weight: 500;
+}
+.header>div{
+    width:fit-content;
+    margin-left:40px;
+}
+nav>ul{
+    padding:0;
+    margin-left:5px;
+    border:0;
+    box-sizing: border-box;
+}
+nav>ul>li{
+    list-style-type: none; 
+    padding:10px 5px;
+    
+    height:28px;
+    vertical-align: middle;
+    display:flex;
+    flex-direction: row;
+}
+nav>ul>li>img{
+    width:22px;
+    height: 20px;
+    margin-right:5px;
+    margin-left:5px;
+}
+nav>ul>li:hover{
+    background-color:#1c3e58;
+    color:black;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color:#fff;                  
+    font-family: Roboto;
+    font-size:12px; 
+    margin:0;
+    margin-left:5px;
+    padding-top:6px;
+}
+#first{
+    margin-top:100px;
+}
+.admission{
+    position:relative;
+    margin-right:0;
+    margin-left:20%;
+    margin-top:2%;
+    margin-bottom:2%;
+    width:75%;
+    height:120px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding:5px 10px;
+    color:#fff;
+}
+.admission>table{
+    background-color:#1C3e58;
+    border:none;
+    width:100%;
+}
+thead>tr{
+    height:40px;
+    padding:5px;
+    background-color:#1C3e58;
+    border:none;
+}
+
+td, th{
+    width:max-content;
+    padding:5px 30px 5px 1px;
+}
+td{
+  background-color: #fff;
+  width:fit-content;
+  font-size:14px;
+  color:#1C3e58;
+  font-weight:600;
+  height:25px;
+  border:none;
+}
+#topLine>td{
+    background:#1C3e58 !important;
+    color:#fff;
+}
+tbody{
+    color:#0F52BA;
+    background:#d7e5ff;
+}
+th{
+  background-color:#1C3e58;
+  height:40px;
+}
+button{
+    border:none;
+    width:150px;
+    height:25px;
+    color:#d7e5ff;
+    background:#04abee ;
+    margin:0 5 0 5;
+    font-weight:700;
+}
+
